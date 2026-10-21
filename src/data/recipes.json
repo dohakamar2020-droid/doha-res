@@ -1,0 +1,308 @@
+[
+  {
+    "id": "r001",
+    "slug": "fresh-orange-juice",
+    "title": "عصير برتقال طازج",
+    "description": "عصير برتقال طبيعي ومنعش، غني بفيتامين C، مثالي لبداية اليوم.",
+    "category": "natural",
+    "image": "/images/recipes/natural.jpg",
+    "imageAlt": "كوب عصير برتقال طازج مع شرائح برتقال",
+    "prepMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      { "name": "برتقال", "quantity": 6, "unit": "حبة" },
+      { "name": "ماء بارد", "quantity": 100, "unit": "مل" },
+      { "name": "عسل (اختياري)", "quantity": 1, "unit": "ملعقة كبيرة" }
+    ],
+    "steps": [
+      "اغسل البرتقال جيداً وقشّره.",
+      "اعصر البرتقال باستخدام عصارة أو خلاط.",
+      "أضف الماء البارد والعسل (إن رغبت).",
+      "صفّ العصير في أكواب وقدّمه بارداً."
+    ],
+    "tips": ["استخدم برتقالاً حلو المذاق للحصول على أفضل نكهة."],
+    "featured": true,
+    "publishedAt": "2025-01-01",
+    "tags": ["برتقال", "فيتامين C", "طبيعي", "صحي"]
+  },
+  {
+    "id": "r002",
+    "slug": "carrot-apple-juice",
+    "title": "عصير جزر وتفاح",
+    "description": "مزيج مغذي من الجزر والتفاح لدعم المناعة والطاقة.",
+    "category": "natural",
+    "image": "/images/recipes/natural.jpg",
+    "imageAlt": "كوب عصير جزر وتفاح برتقالي",
+    "prepMinutes": 12,
+    "servings": 2,
+    "ingredients": [
+      { "name": "جزر", "quantity": 4, "unit": "حبة" },
+      { "name": "تفاح", "quantity": 2, "unit": "حبة" },
+      { "name": "زنجبيل", "quantity": 1, "unit": "شريحة" },
+      { "name": "ماء", "quantity": 50, "unit": "مل" }
+    ],
+    "steps": [
+      "اغسل الجزر والتفاح وقطّعهما.",
+      "أضف الزنجبيل.",
+      "اعصر جميع المكونات في العصارة.",
+      "قدّم العصير فوراً."
+    ],
+    "featured": false,
+    "publishedAt": "2025-01-02",
+    "tags": ["جزر", "تفاح", "زنجبيل", "مناعة"]
+  },
+  {
+    "id": "r003",
+    "slug": "watermelon-mint-juice",
+    "title": "عصير بطيخ ونعناع",
+    "description": "عصير بطيخ منعش مع نعناع، مثالي للأيام الحارة.",
+    "category": "natural",
+    "image": "/images/recipes/natural.jpg",
+    "imageAlt": "كوب عصير بطيخ أحمر مع أوراق نعناع",
+    "prepMinutes": 8,
+    "servings": 3,
+    "ingredients": [
+      { "name": "بطيخ", "quantity": 500, "unit": "غ" },
+      { "name": "نعناع طازج", "quantity": 10, "unit": "ورقة" },
+      { "name": "ليمون", "quantity": 0.5, "unit": "حبة" }
+    ],
+    "steps": [
+      "قطّع البطيخ وأزل البذور.",
+      "ضع البطيخ والنعناع والليمون في الخلاط.",
+      "امزج حتى يصبح ناعماً.",
+      "قدّم مع ثلج (اختياري)."
+    ],
+    "featured": true,
+    "publishedAt": "2025-01-03",
+    "tags": ["بطيخ", "نعناع", "منعش", "صيف"]
+  },
+  {
+    "id": "r004",
+    "slug": "pomegranate-juice",
+    "title": "عصير رمان",
+    "description": "عصير رمان طبيعي غني بمضادات الأكسدة.",
+    "category": "natural",
+    "image": "/images/recipes/natural.jpg",
+    "imageAlt": "كوب عصير رمان داكن مع حبات رمان",
+    "prepMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      { "name": "رمان", "quantity": 3, "unit": "حبة" },
+      { "name": "ماء", "quantity": 50, "unit": "مل" }
+    ],
+    "steps": [
+      "افتح الرمان وأخرج الحبات.",
+      "اعصر الحبات في عصارة.",
+      "أضف القليل من الماء.",
+      "صفّ وقدّم."
+    ],
+    "tips": ["يمكن إضافة قليل من عصير ليمون لتعزيز النكهة."],
+    "featured": false,
+    "publishedAt": "2025-01-04",
+    "tags": ["رمان", "مضادات أكسدة", "طبيعي"]
+  },
+  {
+    "id": "r005",
+    "slug": "berry-banana-smoothie",
+    "title": "سموذي توت وموز",
+    "description": "سموذي كريمي من التوت والموز، مثالي للفطور.",
+    "category": "smoothie",
+    "image": "/images/recipes/smoothie.jpg",
+    "imageAlt": "كوب سموذي توت وموز بنفسجي",
+    "prepMinutes": 7,
+    "servings": 2,
+    "ingredients": [
+      { "name": "توت مشكل", "quantity": 150, "unit": "غ" },
+      { "name": "موز", "quantity": 1, "unit": "حبة" },
+      { "name": "لبن زبادي", "quantity": 150, "unit": "مل" },
+      { "name": "عسل", "quantity": 1, "unit": "ملعقة كبيرة" },
+      { "name": "حليب", "quantity": 100, "unit": "مل" }
+    ],
+    "steps": [
+      "ضع جميع المكونات في الخلاط.",
+      "امزج حتى يصبح ناعماً.",
+      "قدّم فوراً."
+    ],
+    "featured": true,
+    "publishedAt": "2025-01-05",
+    "tags": ["توت", "موز", "سموذي", "فطور"]
+  },
+  {
+    "id": "r006",
+    "slug": "mango-smoothie",
+    "title": "سموذي مانجو",
+    "description": "سموذي مانجو استوائي كريمي ومنعش.",
+    "category": "smoothie",
+    "image": "/images/recipes/smoothie.jpg",
+    "imageAlt": "كوب سموذي مانجو أصفر",
+    "prepMinutes": 6,
+    "servings": 2,
+    "ingredients": [
+      { "name": "مانجو", "quantity": 1, "unit": "حبة" },
+      { "name": "لبن زبادي", "quantity": 120, "unit": "مل" },
+      { "name": "حليب جوز هند", "quantity": 100, "unit": "مل" },
+      { "name": "عسل", "quantity": 1, "unit": "ملعقة صغيرة" }
+    ],
+    "steps": [
+      "قشّر المانجو وقطّعها.",
+      "أضف جميع المكونات إلى الخلاط.",
+      "امزج حتى يصبح ناعماً.",
+      "قدّم بارداً."
+    ],
+    "featured": false,
+    "publishedAt": "2025-01-06",
+    "tags": ["مانجو", "استوائي", "سموذي"]
+  },
+  {
+    "id": "r007",
+    "slug": "green-smoothie",
+    "title": "سموذي أخضر",
+    "description": "سموذي أخضر صحي من السبانخ والتفاح.",
+    "category": "smoothie",
+    "image": "/images/recipes/smoothie.jpg",
+    "imageAlt": "كوب سموذي أخضر",
+    "prepMinutes": 8,
+    "servings": 2,
+    "ingredients": [
+      { "name": "سبانخ", "quantity": 1, "unit": "كوب" },
+      { "name": "تفاح", "quantity": 1, "unit": "حبة" },
+      { "name": "موز", "quantity": 0.5, "unit": "حبة" },
+      { "name": "ماء جوز هند", "quantity": 200, "unit": "مل" }
+    ],
+    "steps": [
+      "اغسل السبانخ.",
+      "قطّع التفاح والموز.",
+      "امزج جميع المكونات.",
+      "قدّم فوراً."
+    ],
+    "tips": ["يمكن إضافة بذور الشيا لتعزيز القيمة الغذائية."],
+    "featured": false,
+    "publishedAt": "2025-01-07",
+    "tags": ["أخضر", "سبانخ", "صحي", "ديتوكس"]
+  },
+  {
+    "id": "r008",
+    "slug": "vanilla-milkshake",
+    "title": "ميلك شيك فانيليا",
+    "description": "ميلك شيك فانيليا كريمي ولذيذ.",
+    "category": "milkshake",
+    "image": "/images/recipes/milkshake.jpg",
+    "imageAlt": "كوب ميلك شيك فانيليا مع كريمة",
+    "prepMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      { "name": "آيس كريم فانيليا", "quantity": 3, "unit": "كرة" },
+      { "name": "حليب", "quantity": 200, "unit": "مل" },
+      { "name": "فانيليا", "quantity": 0.5, "unit": "ملعقة صغيرة" }
+    ],
+    "steps": [
+      "ضع الآيس كريم والحليب والفانيليا في الخلاط.",
+      "امزج حتى يصبح كريمياً.",
+      "قدّم في أكواب."
+    ],
+    "featured": true,
+    "publishedAt": "2025-01-08",
+    "tags": ["فانيليا", "ميلك شيك", "حلوى"]
+  },
+  {
+    "id": "r009",
+    "slug": "chocolate-milkshake",
+    "title": "ميلك شيك شوكولاتة",
+    "description": "ميلك شيك شوكولاتة غني ومنعش.",
+    "category": "milkshake",
+    "image": "/images/recipes/milkshake.jpg",
+    "imageAlt": "كوب ميلك شيك شوكولاتة",
+    "prepMinutes": 5,
+    "servings": 2,
+    "ingredients": [
+      { "name": "آيس كريم شوكولاتة", "quantity": 3, "unit": "كرة" },
+      { "name": "حليب", "quantity": 200, "unit": "مل" },
+      { "name": "صوص شوكولاتة", "quantity": 2, "unit": "ملعقة كبيرة" }
+    ],
+    "steps": [
+      "امزج جميع المكونات.",
+      "قدّم مع صوص إضافي (اختياري)."
+    ],
+    "featured": false,
+    "publishedAt": "2025-01-09",
+    "tags": ["شوكولاتة", "ميلك شيك", "حلوى"]
+  },
+  {
+    "id": "r010",
+    "slug": "strawberry-milkshake",
+    "title": "ميلك شيك فراولة",
+    "description": "ميلك شيك فراولة طازجة وكريمي.",
+    "category": "milkshake",
+    "image": "/images/recipes/milkshake.jpg",
+    "imageAlt": "كوب ميلك شيك فراولة وردي",
+    "prepMinutes": 6,
+    "servings": 2,
+    "ingredients": [
+      { "name": "فراولة", "quantity": 200, "unit": "غ" },
+      { "name": "آيس كريم فانيليا", "quantity": 2, "unit": "كرة" },
+      { "name": "حليب", "quantity": 150, "unit": "مل" }
+    ],
+    "steps": [
+      "اغسل الفراولة.",
+      "امزج جميع المكونات حتى ناعم.",
+      "قدّم بارداً."
+    ],
+    "featured": false,
+    "publishedAt": "2025-01-10",
+    "tags": ["فراولة", "ميلك شيك", "فواكه"]
+  },
+  {
+    "id": "r011",
+    "slug": "tropical-fruit-cocktail",
+    "title": "كوكتيل فواكه استوائي",
+    "description": "مزيج من فواكه استوائية منعش.",
+    "category": "cocktail",
+    "image": "/images/recipes/cocktail.jpg",
+    "imageAlt": "كوب كوكتيل فواكه استوائي ملون",
+    "prepMinutes": 10,
+    "servings": 3,
+    "ingredients": [
+      { "name": "أناناس", "quantity": 150, "unit": "غ" },
+      { "name": "مانجو", "quantity": 100, "unit": "غ" },
+      { "name": "برتقال", "quantity": 1, "unit": "حبة" },
+      { "name": "ليمون", "quantity": 0.5, "unit": "حبة" },
+      { "name": "ماء بارد", "quantity": 100, "unit": "مل" }
+    ],
+    "steps": [
+      "قطّع الفواكه.",
+      "اعصر البرتقال والليمون.",
+      "امزج الفواكه مع العصير والماء.",
+      "قدّم مع ثلج."
+    ],
+    "featured": true,
+    "publishedAt": "2025-01-11",
+    "tags": ["استوائي", "كوكتيل", "فواكه", "أناناس"]
+  },
+  {
+    "id": "r012",
+    "slug": "berry-citrus-cocktail",
+    "title": "كوكتيل توت وحمضيات",
+    "description": "كوكتيل منعش من التوت والحمضيات.",
+    "category": "cocktail",
+    "image": "/images/recipes/cocktail.jpg",
+    "imageAlt": "كوب كوكتيل توت وحمضيات",
+    "prepMinutes": 9,
+    "servings": 2,
+    "ingredients": [
+      { "name": "توت", "quantity": 100, "unit": "غ" },
+      { "name": "برتقال", "quantity": 1, "unit": "حبة" },
+      { "name": "ليمون", "quantity": 0.5, "unit": "حبة" },
+      { "name": "نعناع", "quantity": 5, "unit": "ورقة" },
+      { "name": "ماء فوار", "quantity": 150, "unit": "مل" }
+    ],
+    "steps": [
+      "اعصر البرتقال والليمون.",
+      "أضف التوت والنعناع.",
+      "امزج برفق.",
+      "أضف الماء الفوار وقدّم."
+    ],
+    "featured": false,
+    "publishedAt": "2025-01-12",
+    "tags": ["توت", "حمضيات", "كوكتيل", "منعش"]
+  }
+]
