@@ -74,6 +74,7 @@ export default async function RecipeDetailPage({ params }: { params: Promise<Par
         <span>⏱ وقت التحضير: {recipe.prepMinutes} دقيقة</span>
         <span>🍽 عدد الحصص: {recipe.servings}</span>
         <span>📂 {CATEGORY_LABELS[recipe.category]}</span>
+        <span className="font-semibold text-orange-700">💰 السعر: {recipe.price} ر.س</span>
       </div>
 
       <div className="relative mt-6 h-72 w-full overflow-hidden rounded-2xl sm:h-96">

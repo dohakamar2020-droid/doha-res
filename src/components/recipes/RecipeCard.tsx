@@ -22,9 +22,12 @@ export function RecipeCard({ recipe }: { recipe: Recipe }) {
           </span>
           <h3 className="mt-2 text-lg font-semibold text-gray-900">{recipe.title}</h3>
           <p className="mt-1 line-clamp-2 text-sm text-gray-600">{recipe.description}</p>
-          <div className="mt-3 flex items-center gap-3 text-xs text-gray-500">
-            <span>⏱ {recipe.prepMinutes} دقيقة</span>
-            <span>🍽 {recipe.servings} حصة</span>
+          <div className="mt-3 flex items-center justify-between text-xs text-gray-500">
+            <div className="flex items-center gap-3">
+              <span>⏱ {recipe.prepMinutes} دقيقة</span>
+              <span>🍽 {recipe.servings} حصة</span>
+            </div>
+            <span className="font-semibold text-orange-700">{recipe.price} ر.س</span>
           </div>
         </div>
       </Link>

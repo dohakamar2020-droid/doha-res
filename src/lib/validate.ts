@@ -36,6 +36,7 @@ export function validateRecipes(recipes: unknown): ValidationError[] {
       "imageAlt",
       "prepMinutes",
       "servings",
+      "price",
       "ingredients",
       "steps",
       "featured",
@@ -125,6 +126,10 @@ export function validateRecipes(recipes: unknown): ValidationError[] {
     // servings
     if (typeof rec.servings !== "number" || rec.servings < 1) {
       errors.push({ message: `${prefix}: invalid servings` });
+    }
+    // price
+    if (typeof rec.price !== "number" || rec.price < 0) {
+      errors.push({ message: `${prefix}: invalid price` });
     }
     // featured
     if (typeof rec.featured !== "boolean") {
