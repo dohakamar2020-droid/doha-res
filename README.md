@@ -34,6 +34,7 @@ npm run dev
 الوصفات مخزنة في `src/data/recipes.json`. أضف أو عدّل وصفة مع التأكد من:
 - عدم تكرار `id` أو `slug`
 - استخدام تصنيفات صحيحة: `natural`, `smoothie`, `milkshake`, `cocktail`
+- إضافة حقل `price` (ر.س) لكل وصفة
 - وجود ملف الصورة في `public/images/recipes`
 
 ## النشر على Vercel
